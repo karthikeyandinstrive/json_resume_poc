@@ -1318,6 +1318,159 @@ function DashBoard() {
       },
     ],
   });
+  const [resumeData5] = useState({
+    basics: {
+      name: "Deepak Kumar Rajendran",
+      label: "React JS Developer",
+      image: "",
+      email: "kumard312@gmail.com",
+      phone: "+917010072734",
+      url: "",
+      summary:
+        "Over 4.6 years of IT experience which includes 2+ years of Extensive experience as a React JS Developer and 2 years of Experience as an Angular 10+.",
+      location: {
+        address: "",
+        postalCode: "",
+        city: "",
+        countryCode: "",
+        region: "",
+      },
+      profiles: [],
+    },
+    work: [
+      {
+        name: "Iyangaran Software Pvt Ltd",
+        position: "Angular Developer",
+        url: "",
+        startDate: "01/2018",
+        endDate: "08/2019",
+        summary:
+          "Worked as a remote source to the Caveonix project, developing the Angular part using the latest Angular version and JavaScript libraries. Reviewed application requirements and interface designs.",
+        highlights: [
+          "Delivered data from the Backend to frontend through ag-grid",
+          "Worked on D3 chart",
+        ],
+      },
+      {
+        name: "Instrive Soft labs Pvt Ltd",
+        position: "Senior Software Engineer",
+        url: "",
+        startDate: "08/2019",
+        endDate: "Current",
+        summary:
+          "Developed compatible User Interface functionality using Angular and other libraries for the Perks Vision project. Also worked on the E-Voting, HydraMeet, Gaius, and Proxtera projects, handling UI development, backend development, troubleshooting, and API services.",
+        highlights: [
+          "Delivered data from the Backend to frontend through ngx-table",
+          "Worked on Auth flow (Sign-In, Sign-Up, AUTH Guard, Role Guard)",
+          "Managed MongoDB",
+          "Monitoring and improving front-end performance",
+          "Worked on Redux for storing the data from API and managing all the service files and reusable components",
+        ],
+      },
+    ],
+    volunteer: [],
+    education: [
+      {
+        institution: "VELLYAN CHETTIYAR HR SECONDARY SCHOOL",
+        url: "",
+        area: "",
+        studyType: "S.S.L.C.",
+        startDate: "2009",
+        endDate: "",
+        score: "59%",
+        courses: [],
+      },
+      {
+        institution: "SRI SAI RAM POLYTECHNIC COLLEGE",
+        url: "",
+        area: "Electronics & Communication Engineering",
+        studyType: "DIPLOMA",
+        startDate: "2012",
+        endDate: "",
+        score: "66%",
+        courses: [],
+      },
+      {
+        institution: "SRI SAI RAM INSTITUTE OF TECHNOLOGY",
+        url: "",
+        area: "Electronics & Communication Engineering",
+        studyType: "B.E.",
+        startDate: "2013",
+        endDate: "2016",
+        score: "61%",
+        courses: [],
+      },
+    ],
+    awards: [],
+    certificates: [],
+    publications: [],
+    skills: [
+      {
+        name: "React JS",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Angular 10+",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Node JS",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "MongoDB",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "HTML5",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "CSS3",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "JavaScript",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "GitHub",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Bitbucket",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Jira",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Linux",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Windows",
+        level: "",
+        keywords: [],
+      },
+    ],
+    languages: [],
+    interests: [],
+    references: [],
+    projects: [],
+  });
   const handleChangeName = (event) => {
     setName(event.target.value);
     if (event.target.value === 1) {
@@ -1328,6 +1481,8 @@ function DashBoard() {
       setResumeData(resumeData3);
     } else if (event.target.value === 4) {
       setResumeData(resumeData4);
+    } else if (event.target.value === 5) {
+      setResumeData(resumeData5);
     }
   };
   // useEffect(() => {
@@ -1385,6 +1540,7 @@ function DashBoard() {
                   >
                     <MenuItem value={1}>Aashish Vivekanand </MenuItem>
                     <MenuItem value={4}>Bharathraj E</MenuItem>
+                    <MenuItem value={5}>Deepak Kumar R</MenuItem>
                     <MenuItem value={2}>Sowmiya Skandan</MenuItem>
                     <MenuItem value={3}>Karthikeyan D</MenuItem>
                   </Select>
@@ -1444,15 +1600,15 @@ function DashBoard() {
                         label="Phone"
                       />
                     </Grid>
-                    <Grid item xs={12} sm={12} md={6} lg={6}>
+                    {/* <Grid item xs={12} sm={12} md={6} lg={6}>
                       <TextField
                         sx={{ my: 2 }}
                         fullWidth
                         value={resumeData?.basics?.phone}
                         label="Phone"
                       />
-                    </Grid>
-                    <Grid item xs={12} sm={12} md={6} lg={6}>
+                    </Grid> */}
+                    <Grid item xs={12} sm={12} md={12} lg={12}>
                       <TextField
                         sx={{ my: 2 }}
                         fullWidth
@@ -1907,7 +2063,7 @@ function DashBoard() {
                             </p>
                             <p>
                               <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>
-                              {resumeData?.basics?.location?.region}
+                              {resumeData?.basics?.location?.region}{" "}
                               {resumeData?.basics?.location?.city}
                             </p>
                             <p>
