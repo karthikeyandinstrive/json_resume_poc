@@ -1529,8 +1529,8 @@ function DashBoard() {
                             "https://elite-app-b6282.firebaseapp.com/seeker"
                           }
                           // eslint-disable-next-line
-
                           target="_blank"
+                          rel="noreferrer"
                         >
                           karthikeyan.d@instrive.in
                         </a>
