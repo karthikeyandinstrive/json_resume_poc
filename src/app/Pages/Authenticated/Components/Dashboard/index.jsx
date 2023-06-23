@@ -8,7 +8,7 @@ import {
   Select,
   Tab,
 } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import {
   Box,
@@ -1524,9 +1524,12 @@ function DashBoard() {
                       <p>
                         Powered by{" "}
                         <a
+                          // eslint-disable-next-line
                           href={
                             "https://elite-app-b6282.firebaseapp.com/seeker"
                           }
+                          // eslint-disable-next-line
+
                           target="_blank"
                         >
                           karthikeyan.d@instrive.in
