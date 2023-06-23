@@ -812,12 +812,451 @@ function DashBoard() {
       },
     ],
   });
+
+  const [resumeData3] = useState({
+    basics: {
+      name: "Karthikeyan D",
+      label: "Full Stack Developer",
+      image: "",
+      email: "karthikeyandias@gmail.com",
+      phone: "+91-7010543395",
+      url: "",
+      summary:
+        "Experienced full stack developer with expertise in React JS, Node JS, .NET technologies, and SQL Server. Skilled in end-to-end development of software products, team management, and communication. Holds a Bachelor of Computer Science and Engineering from Anna University, Chennai.",
+      location: {
+        address: "No 32, RajeswariNagar,L.R Palayam",
+        postalCode: "607106",
+        city: "Panruti",
+        countryCode: "IN",
+        region: "Tamil Nadu",
+      },
+      profiles: [],
+    },
+    work: [
+      {
+        name: "Instrive Softlabs Pvt Ltd",
+        position: "Senior Software Developer",
+        url: "",
+        startDate: "06/2021",
+        endDate: "",
+        summary:
+          "Working as a senior software developer, responsible for end-to-end development of software products, team management, and resolving complex software issues.",
+        highlights: [],
+      },
+      {
+        name: "Aroopa Technologies Pvt Ltd",
+        position: "Software Developer (Full Stack)",
+        url: "",
+        startDate: "01/2020",
+        endDate: "05/2021",
+        summary:
+          "Worked as a software developer, responsible for full stack web development using React JS, Node JS, and other technologies.",
+        highlights: [],
+      },
+      {
+        name: "4C IT Services Pvt Ltd",
+        position: "Junior Software Developer",
+        url: "",
+        startDate: "08/2013",
+        endDate: "07/2019",
+        summary:
+          "Worked as a junior software developer, involved in the development of software applications using .NET technologies.",
+        highlights: [],
+      },
+    ],
+    volunteer: [],
+    education: [
+      {
+        institution:
+          "Surya Group of Institutions, School of Engineering and Technology",
+        url: "",
+        area: "Computer Science and Engineering",
+        studyType: "Bachelor",
+        startDate: "2009",
+        endDate: "2013",
+        score: "7.17",
+        courses: [],
+      },
+    ],
+    awards: [],
+    certificates: [],
+    publications: [
+      {
+        name: "Towards Secure And Storage Services In Cloud Computing Using Watermarking Without Third Party",
+        publisher:
+          "International Conference On Computing And Control Engineering",
+        releaseDate: "April 2012",
+        url: "",
+        summary: "",
+      },
+      {
+        name: "Autonomous navigation and Tele-operations in robots using machine learning",
+        publisher: "International Journal of Computer Applications",
+        releaseDate: "February 2013",
+        url: "",
+        summary: "",
+      },
+      {
+        name: "Autonomous navigation and Tele-operations in robots using swarm intelligence",
+        publisher:
+          "National conference on Advance Computer and Information technology",
+        releaseDate: "April 2013",
+        url: "",
+        summary: "",
+      },
+    ],
+    skills: [
+      {
+        name: "React JS",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Node JS",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Flutter",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Firebase",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: ".NET",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "C#.NET",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Java",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "JavaScript",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "HTML",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "CSS",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "XML",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "SQL Server",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "MongoDB",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "PostgresSQL",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Visual Studio",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Visual Studio Code",
+        level: "",
+        keywords: [],
+      },
+    ],
+    languages: [
+      {
+        language: "Tamil",
+        fluency: "",
+      },
+      {
+        language: "English",
+        fluency: "",
+      },
+    ],
+    interests: [],
+    references: [],
+    projects: [
+      {
+        name: "SFE",
+        startDate: "",
+        endDate: "",
+        summary:
+          "Worked as a front-end developer in this project. Developed an online learning platform based on SSO using React JS. Implemented various authentication methods and certificate generation.",
+        highlights: [],
+        url: "",
+      },
+      {
+        name: "SmartFutures",
+        startDate: "",
+        endDate: "",
+        summary:
+          "Worked as a front-end developer in this project. Converted an existing website to a responsive React website using Bootstrap-react.",
+        highlights: [],
+        url: "",
+      },
+      {
+        name: "GmdShipyard",
+        startDate: "",
+        endDate: "",
+        summary:
+          "Worked as a front-end developer in this project. Developed an application to monitor and capture employee's productivity using React, Redux, Redux-thunk, Ag-Grid, and SQL Server.",
+        highlights: [],
+        url: "",
+      },
+      {
+        name: "Epoch Lending",
+        startDate: "",
+        endDate: "",
+        summary:
+          "Worked as a full stack developer and team leader in this project. Developed a role-based management tool for Epoch Lending using React, Redux-thunk, Node.js, and MongoDB.",
+        highlights: [],
+        url: "",
+      },
+      {
+        name: "Medallion Enterprises",
+        startDate: "",
+        endDate: "",
+        summary:
+          "Worked as a full stack developer and team leader in this project. Developed a shipment management tool for Medallion Enterprises using React, Redux-thunk, Node.js, PostgresSQL, and QuickBooks.",
+        highlights: [],
+        url: "",
+      },
+    ],
+  });
+  const [resumeData4] = useState({
+    basics: {
+      name: "Arun Kumar R",
+      label: "Full Stack Developer",
+      image: "",
+      email: "arunpsrmech@gmail.com",
+      phone: "9080451842",
+      url: "https://www.linkedin.com/in/arunkumar-r-389b39113/",
+      summary:
+        "Skilled and results-oriented Software Engineer with more than 3+ years of experience working as a full stack developer. Proficient in HTML, CSS, Angular, React+Redux, Node.js, Express.js, MongoDB, Firebase, Microservices, and Heroku. Strong problem-solving and communication skills. Holds a Bachelor's degree in Mechanical Engineering from P.S.R Engineering College, Sivakasi.",
+      location: {
+        address: "",
+        postalCode: "",
+        city: "Chennai",
+        countryCode: "IN",
+        region: "Tamil Nadu",
+      },
+      profiles: [],
+    },
+    work: [
+      {
+        name: "Technonix Infosystem Pvt Ltd",
+        position: "Senior Software Developer",
+        url: "",
+        startDate: "10/2019",
+        endDate: "Present",
+        summary:
+          "Working as a Senior Developer/acting TL to take full responsibility of the projects. Creating application structure both client and server side using MEAN and MERN Stack. Training juniors.",
+        highlights: [],
+      },
+      {
+        name: "Bangtech Pvt Ltd",
+        position: "Junior Front-end Developer",
+        url: "",
+        startDate: "11/2018",
+        endDate: "09/2019",
+        summary:
+          "Developed applications from scratch using MEAN Stack. Worked closely with senior developers to meet project requirements, goals, and desired functionality.",
+        highlights: [],
+      },
+    ],
+    volunteer: [],
+    education: [
+      {
+        institution: "P.S.R Engineering College",
+        url: "",
+        area: "Mechanical Engineering",
+        studyType: "Bachelor",
+        startDate: "2012",
+        endDate: "2016",
+        score: "",
+        courses: [],
+      },
+    ],
+    awards: [],
+    certificates: [],
+    publications: [],
+    skills: [
+      {
+        name: "HTML",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "CSS",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Angular 6-12",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "React+Redux",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Node.js",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Express.js",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "MongoDB",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Firebase",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Microservices",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Heroku",
+        level: "",
+        keywords: [],
+      },
+    ],
+    languages: [],
+    interests: [
+      {
+        name: "Internet Browsing",
+      },
+      {
+        name: "Cooking",
+      },
+      {
+        name: "Watching Technical videos",
+      },
+      {
+        name: "Bike ride",
+      },
+    ],
+    references: [],
+    projects: [
+      {
+        name: "CRM (Ecommerce)",
+        startDate: "",
+        endDate: "",
+        summary:
+          "Developed functionalities for Merchant details, Customer details, Product details, Order Tracking, Stack Maintenance, and Sales. Implemented authentication for Admin and Merchant. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the Heroku server.",
+        highlights: [],
+        url: "",
+      },
+      {
+        name: "HRMS (Human Resource Management System)",
+        startDate: "",
+        endDate: "",
+        summary:
+          "Developed functionalities for Attendance management, Leave management, Payroll management, Interview Scheduling, Performance tracking, etc. Implemented authentication for Admin, HR, and Employee. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the AWS server.",
+        highlights: [],
+        url: "",
+      },
+      {
+        name: "DMS (Distribution Management System)",
+        startDate: "",
+        endDate: "",
+        summary:
+          "Developed functionalities for Invoice generation, Order tracking, sales, stack management, Finance management, etc. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the AWS server.",
+        highlights: [],
+        url: "",
+      },
+      {
+        name: "WMS (Warehouse Management System)",
+        startDate: "",
+        endDate: "",
+        summary:
+          "Developed functionalities for vehicle entry, Invoice generation, Order tracking, sales, stack management, Finance management, etc. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the AWS server.",
+        highlights: [],
+        url: "",
+      },
+      {
+        name: "DBMS (Database Management System)",
+        startDate: "",
+        endDate: "",
+        summary:
+          "Developed functionalities for storing, retrieving, and restoring data. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the AWS server.",
+        highlights: [],
+        url: "",
+      },
+      {
+        name: "Sales Application",
+        startDate: "",
+        endDate: "",
+        summary:
+          "Developed functionalities for sales executive details, performance, order status, client details, etc. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the Heroku server.",
+        highlights: [],
+        url: "",
+      },
+      {
+        name: "Ecommerce",
+        startDate: "",
+        endDate: "",
+        summary:
+          "Developed functionalities for Product list, wish list, Add to cart, Checkout, etc. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the Heroku server.",
+        highlights: [],
+        url: "",
+      },
+      {
+        name: "Fintech Mobile Application",
+        startDate: "",
+        endDate: "",
+        summary:
+          "Developed functionalities for Private chat, Group creation and Group Chat, International money transfer, transactions, bill payments, Add fund to wallet, wallet transaction, Mobile number verification, email verification, otp, etc. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the AWS server.",
+        highlights: [],
+        url: "",
+      },
+    ],
+  });
   const handleChangeName = (event) => {
     setName(event.target.value);
     if (event.target.value === 1) {
       setResumeData(resumeData1);
-    } else {
+    } else if (event.target.value === 2) {
       setResumeData(resumeData2);
+    } else if (event.target.value === 3) {
+      setResumeData(resumeData3);
+    } else if (event.target.value === 4) {
+      setResumeData(resumeData4);
     }
   };
   // useEffect(() => {
@@ -874,7 +1313,9 @@ function DashBoard() {
                     onChange={handleChangeName}
                   >
                     <MenuItem value={1}>Aashish Vivekanand </MenuItem>
+                    <MenuItem value={4}>Arun Kumar</MenuItem>
                     <MenuItem value={2}>Sowmiya Skandan</MenuItem>
+                    <MenuItem value={3}>Karthikeyan</MenuItem>
                   </Select>
                 </FormControl>
               </Box>
@@ -1491,7 +1932,52 @@ function DashBoard() {
                               </div>
                             </div>
                           ))}
+                          <h2 class="w3-text-grey w3-padding-16">
+                            <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
+                            Projects
+                          </h2>
+                          {resumeData?.projects?.map((e) => (
+                            <div>
+                              <div class="w3-container">
+                                <h5 class="w3-opacity">
+                                  {e?.name}
+                                  <b></b>
+                                </h5>
+                                <h6 class="w3-text-teal">
+                                  <i class="fa fa-calendar fa-fw w3-margin-right"></i>
+                                  {e?.startDate} -{" "}
+                                  <span class="w3-tag w3-teal w3-round">
+                                    {e?.endDate}
+                                  </span>
+                                </h6>
+                                <p>{e?.summary}</p>
+                                <hr />
+                              </div>
+                            </div>
+                          ))}
+                          <h2 class="w3-text-grey w3-padding-16">
+                            <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
+                            Publications
+                          </h2>
+                          {resumeData?.publications?.map((e) => (
+                            <div>
+                              <div class="w3-container">
+                                <h5 class="w3-opacity">
+                                  {e?.name}
+                                  <b></b>
+                                </h5>
+                                <p>{e?.publisher}</p>
+                                {/* <p>{e?.summary}</p> */}
 
+                                <h6 class="w3-text-teal">
+                                  <i class="fa fa-calendar fa-fw w3-margin-right"></i>
+                                  {e?.releaseDate}
+                                </h6>
+                                <p>{e?.summary}</p>
+                                <hr />
+                              </div>
+                            </div>
+                          ))}
                           <div class="w3-container w3-card w3-white">
                             <h2 class="w3-text-grey w3-padding-16">
                               <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
