@@ -855,6 +855,7 @@ function DashBoard() {
             overflow: "auto",
             display: "flex",
             flexDirection: "column",
+            mb: 16,
           }}
         >
           <Toolbar />
@@ -882,6 +883,8 @@ function DashBoard() {
                   <TabList
                     onChange={handleChange}
                     aria-label="lab API tabs example"
+                    variant="scrollable"
+                    scrollButtons="auto"
                   >
                     <Tab label="Basic Info" value="1" />
                     <Tab label="Location" value="2" />
