@@ -1,0 +1,97 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "airbnb-typescript",
+    "plugin:react/jsx-runtime",
+    "plugin:prettier/recommended",
+    "eslint:recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11,
+    "project": "./tsconfig.json",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "fragment": "Fragment",
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "eqeqeq": "error",
+    "prefer-destructuring": ["error", { "object": true, "array": false }],
+    "no-console": "warn",
+    "react/jsx-filename-extension": 2,
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "react/display-name": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    "import/prefer-default-export": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "comma-dangle": ["error", "never"],
+    "max-len": ["error", { "code": 300 }],
+    "no-param-reassign": 0,
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-return-assign": 2,
+    "no-empty-pattern": "off",
+    // "object-curly-newline": [
+    //   "error",
+    //   {
+    //     "ObjectPattern": { "multiline": true },
+
+    //     "ObjectExpression": { "multiline": true, "minProperties": 1 },
+    //     "ImportDeclaration": "never",
+    //     "ExportDeclaration": { "multiline": true, "minProperties": 3 }
+    //   }
+    // ],
+    "react/jsx-props-no-spreading": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/require-default-props": 2,
+    "typescript-eslint/no-unused-vars": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/no-unescaped-entities": 2,
+    "react/forbid-prop-types": 2,
+    "react/jsx-max-props-per-line": [
+      1,
+      {
+        "maximum": 2,
+        "when": "multiline"
+      }
+    ],
+    // "indent": ["error", 2],
+    // "indent": [
+    //   "error",
+    //   2,
+    //   {
+    //     "SwitchCase": 1,
+    //     "ignoredNodes": ["ConditionalExpression"],
+    //   },
+    // ],
+    // "indent": [4, "tab"],
+    "@typescript-eslint/indent": 0,
+    "no-use-before-define": 2,
+    "@typescript-eslint/no-use-before-define": 2,
+    "@typescript-eslint/no-unused-vars": 2,
+    "@typescript-eslint/no-shadow": 2,
+    "@typescript-eslint/dot-notation": 2,
+    "react/prop-types": 2,
+    "@typescript-eslint/naming-convention": 2
+  }
+}
