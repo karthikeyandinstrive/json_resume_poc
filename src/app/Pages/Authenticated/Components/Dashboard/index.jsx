@@ -1049,14 +1049,14 @@ function DashBoard() {
   });
   const [resumeData4] = useState({
     basics: {
-      name: "Arun Kumar R",
+      name: "Bharathraj Elangovan",
       label: "Full Stack Developer",
       image: "",
-      email: "arunpsrmech@gmail.com",
-      phone: "9080451842",
-      url: "https://www.linkedin.com/in/arunkumar-r-389b39113/",
+      email: "ebraj1996@gmail.com",
+      phone: "(91)909 503 8910",
+      url: "",
       summary:
-        "Skilled and results-oriented Software Engineer with more than 3+ years of experience working as a full stack developer. Proficient in HTML, CSS, Angular, React+Redux, Node.js, Express.js, MongoDB, Firebase, Microservices, and Heroku. Strong problem-solving and communication skills. Holds a Bachelor's degree in Mechanical Engineering from P.S.R Engineering College, Sivakasi.",
+        "Experienced Full Stack Developer with expertise in Flutter, REST API Development, JWT-based authentication, backend development, and database handling. Skilled in problem-solving and project management. Holds a Bachelor's degree in Mechatronics from Bannari Amman Institute of Technology.",
       location: {
         address: "",
         postalCode: "",
@@ -1068,60 +1068,101 @@ function DashBoard() {
     },
     work: [
       {
-        name: "Technonix Infosystem Pvt Ltd",
-        position: "Senior Software Developer",
+        name: "Instrive Softlabs Pvt Limited",
+        position: "Software Developer (Flutter)",
         url: "",
-        startDate: "10/2019",
+        startDate: "06/2021",
         endDate: "Present",
         summary:
-          "Working as a Senior Developer/acting TL to take full responsibility of the projects. Creating application structure both client and server side using MEAN and MERN Stack. Training juniors.",
+          "Engineered modern applications for Android, iOS, and web using Flutter. Deployed and integrated software engineered by the team and improved continuous integration practices.",
         highlights: [],
       },
       {
-        name: "Bangtech Pvt Ltd",
-        position: "Junior Front-end Developer",
+        name: "Freelancer",
+        position: "Full Stack Developer",
         url: "",
-        startDate: "11/2018",
-        endDate: "09/2019",
+        startDate: "11/2020",
+        endDate: "06/2021",
         summary:
-          "Developed applications from scratch using MEAN Stack. Worked closely with senior developers to meet project requirements, goals, and desired functionality.",
+          "Worked with a team of designers to develop custom PHP & MySQL CMS for Grammy award songwriter Bruce Carroll. Customized eCommerce programs for retail and B2B businesses.",
+        highlights: [],
+      },
+      {
+        name: "Bannari Amman Institute of Technology",
+        position: "Full Stack Developer",
+        url: "",
+        startDate: "06/2018",
+        endDate: "11/2020",
+        summary:
+          "Developed cross-platform applications (Web/Android/iOS) using Flutter and PHP. Managed public server, database, projects, and domain.",
         highlights: [],
       },
     ],
     volunteer: [],
     education: [
       {
-        institution: "P.S.R Engineering College",
+        institution: "Bannari Amman Institute of Technology",
         url: "",
-        area: "Mechanical Engineering",
+        area: "Mechatronics",
         studyType: "Bachelor",
+        startDate: "2014",
+        endDate: "2018",
+        score: "7.45",
+        courses: [],
+      },
+      {
+        institution: "Sri Venkateshwara Vidhyalaya Higher Secondary School",
+        url: "",
+        area: "12th",
+        studyType: "",
         startDate: "2012",
-        endDate: "2016",
-        score: "",
+        endDate: "2014",
+        score: "93%",
+        courses: [],
+      },
+      {
+        institution: "Sri Venkateshwara Vidhyalaya Higher Secondary School",
+        url: "",
+        area: "10th",
+        studyType: "",
+        startDate: "2012",
+        endDate: "2014",
+        score: "92.8%",
         courses: [],
       },
     ],
     awards: [],
     certificates: [],
-    publications: [],
+    publications: [
+      {
+        name: "Responsive UI — Flutter Package",
+        publisher: "Pub.dev",
+        releaseDate: "",
+        url: "https://pub.dev/packages/responsive_ui",
+        summary:
+          "Flutter package for creating responsive widgets on Android, iOS, and Web.",
+      },
+      {
+        name: "Recaptcha V3 — Flutter Package",
+        publisher: "Pub.dev",
+        releaseDate: "",
+        url: "https://pub.dev/packages/g_recaptcha_v3",
+        summary: "Flutter package for implementing Recaptcha V3.",
+      },
+    ],
     skills: [
       {
-        name: "HTML",
+        name: "Flutter",
         level: "",
         keywords: [],
       },
       {
-        name: "CSS",
+        name: "Android (Java)",
         level: "",
         keywords: [],
       },
       {
-        name: "Angular 6-12",
-        level: "",
-        keywords: [],
-      },
-      {
-        name: "React+Redux",
+        name: "PHP (Core)",
         level: "",
         keywords: [],
       },
@@ -1131,12 +1172,27 @@ function DashBoard() {
         keywords: [],
       },
       {
-        name: "Express.js",
+        name: "Golang",
         level: "",
         keywords: [],
       },
       {
-        name: "MongoDB",
+        name: "MySQL",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Git",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Github Workflow",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Progressive Web Apps",
         level: "",
         keywords: [],
       },
@@ -1146,104 +1202,119 @@ function DashBoard() {
         keywords: [],
       },
       {
-        name: "Microservices",
+        name: "Cloud Functions",
         level: "",
         keywords: [],
       },
       {
-        name: "Heroku",
+        name: "SEO",
+        level: "",
+        keywords: [],
+      },
+      {
+        name: "Socket.io",
         level: "",
         keywords: [],
       },
     ],
-    languages: [],
+    languages: [
+      {
+        language: "Tamil",
+        fluency: "S/R/W",
+      },
+      {
+        language: "English",
+        fluency: "S/R/W",
+      },
+    ],
     interests: [
       {
-        name: "Internet Browsing",
+        name: "Mobile App Development",
       },
       {
-        name: "Cooking",
-      },
-      {
-        name: "Watching Technical videos",
-      },
-      {
-        name: "Bike ride",
+        name: "Rest API Development",
       },
     ],
     references: [],
     projects: [
       {
-        name: "CRM (Ecommerce)",
+        name: "HydraMeet (Multi-Platform Support)",
         startDate: "",
         endDate: "",
-        summary:
-          "Developed functionalities for Merchant details, Customer details, Product details, Order Tracking, Stack Maintenance, and Sales. Implemented authentication for Admin and Merchant. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the Heroku server.",
+        summary: "An on-the-go video-conferencing application.",
         highlights: [],
-        url: "",
+        url: "https://hydrameet.com/",
       },
       {
-        name: "HRMS (Human Resource Management System)",
+        name: "Gigavus",
         startDate: "",
         endDate: "",
-        summary:
-          "Developed functionalities for Attendance management, Leave management, Payroll management, Interview Scheduling, Performance tracking, etc. Implemented authentication for Admin, HR, and Employee. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the AWS server.",
+        summary: "A social media application.",
         highlights: [],
-        url: "",
+        url: "https://play.google.com/store/apps/details?id=com.gigavus&hl=en&gl=US",
       },
       {
-        name: "DMS (Distribution Management System)",
+        name: "Institution App",
         startDate: "",
         endDate: "",
         summary:
-          "Developed functionalities for Invoice generation, Order tracking, sales, stack management, Finance management, etc. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the AWS server.",
+          "In-house app for college activities, including web access, campus portal, blog, bus tracking, and notifications.",
         highlights: [],
-        url: "",
+        url: "https://play.google.com/store/apps/details?id=bitsathy.apps_bitsathy",
       },
       {
-        name: "WMS (Warehouse Management System)",
+        name: "Lab Profile",
         startDate: "",
         endDate: "",
         summary:
-          "Developed functionalities for vehicle entry, Invoice generation, Order tracking, sales, stack management, Finance management, etc. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the AWS server.",
+          "A site for the special lab representing objectives, monthly activities, and projects.",
         highlights: [],
-        url: "",
+        url: "https://adc.bitsathy.ac.in",
       },
       {
-        name: "DBMS (Database Management System)",
+        name: "Action Plan",
         startDate: "",
         endDate: "",
         summary:
-          "Developed functionalities for storing, retrieving, and restoring data. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the AWS server.",
+          "An in-house web app to maintain and review faculty publications-related activities with report generation.",
         highlights: [],
-        url: "",
+        url: "https://adc.bitsathy.ac.in/projects/action-plan",
       },
       {
-        name: "Sales Application",
+        name: "TRACK 247 [Work management App]",
         startDate: "",
         endDate: "",
         summary:
-          "Developed functionalities for sales executive details, performance, order status, client details, etc. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the Heroku server.",
+          "A QR code scan-based application to create and maintain work schedules for workers in a company with face capture security features.",
         highlights: [],
-        url: "",
+        url: "[private]",
       },
       {
-        name: "Ecommerce",
+        name: "Aero Design Challenge 2021",
         startDate: "",
         endDate: "",
         summary:
-          "Developed functionalities for Product list, wish list, Add to cart, Checkout, etc. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the Heroku server.",
+          "A web application for participants to register for the event, view announcements, scoreboard, and apply workshops in the competition with the admin control panel.",
         highlights: [],
-        url: "",
+        url: "http://adc.saeiss.org",
       },
       {
-        name: "Fintech Mobile Application",
+        name: "Stock Manager",
         startDate: "",
         endDate: "",
         summary:
-          "Developed functionalities for Private chat, Group creation and Group Chat, International money transfer, transactions, bill payments, Add fund to wallet, wallet transaction, Mobile number verification, email verification, otp, etc. Developed Rest API using Node, Express.js, and MongoDB. Deployed the API on the AWS server.",
+          "A Flutter-based web application for maintaining and managing product stocks in a company.",
         highlights: [],
-        url: "",
+        url: "https://demo-app.sriranganoilmill.com, https://sriranganoilmill.com",
+      },
+      {
+        name: "School Website",
+        startDate: "",
+        endDate: "",
+        summary:
+          "A progressive web application for The Camford International School with an integrated payment gateway and Notebook delivery app.",
+        highlights: [],
+        url: "https://thecamford.org/, https://pay.thecamford.org/",
       },
     ],
   });
@@ -1313,9 +1384,9 @@ function DashBoard() {
                     onChange={handleChangeName}
                   >
                     <MenuItem value={1}>Aashish Vivekanand </MenuItem>
-                    <MenuItem value={4}>Arun Kumar</MenuItem>
+                    <MenuItem value={4}>Bharathraj E</MenuItem>
                     <MenuItem value={2}>Sowmiya Skandan</MenuItem>
-                    <MenuItem value={3}>Karthikeyan</MenuItem>
+                    <MenuItem value={3}>Karthikeyan D</MenuItem>
                   </Select>
                 </FormControl>
               </Box>
